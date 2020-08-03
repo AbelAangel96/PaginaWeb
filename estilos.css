@@ -168,3 +168,61 @@ nav ul li a .quinto {
 	background: #000;
 
 }
+
+/* Slideshow */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background: #f2f2f2;
+}
+
+.main {
+	width: 90%;
+	max-width: 1000px;
+	margin:20px auto;
+}
+
+.slides {
+	width: 100%;
+}
+
+.slides img {
+	width: 100%;
+}
+
+.slidesjs-pagination {
+	background: #000;
+	list-style: none;
+	overflow:hidden;
+}
+
+.slidesjs-pagination li {
+	float:left;
+}
+
+.slidesjs-pagination li a {
+	display:block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration:none;
+}
+
+.slidesjs-pagination li a:hover {
+	background: #fff;
+}
+.slides .active {
+	background: #fff;
+}
+
+.slidesjs-navigation {
+	background: #000;
+	color:#fff;
+	text-decoration:none;
+	display: inline-block;
+	padding: 11px 20px;
+	float:right;
+}

@@ -1,0 +1,13 @@
+
+Errores: 
+
+1. Agregar las redes sociales que utilizamos
+2. Corregir los iconos. Hay un icono de home en el Baner vertical.
+3. Los botones atras y siguiente del Slidehow estan al reves. En realidad para que quede estetico agregue los iconos al reves del correspondiente. No puedo acomodar los dos bloques.
+
+Cuestiones:
+
+a. El slideshow esta se usa desde el script de la pagina. (funcion contenida en html), ademas la carpeta .js tiene los componentes de este archivo.
+b. Los iconos de slideshow estan en la carpeta jquery.slides.js por la fila 118.
+
+
