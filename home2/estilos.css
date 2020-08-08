@@ -19,13 +19,13 @@ header {
 header .logo {
     color:#f2f2f2;
     font-size: 50px;
-    line-height: 200px;
+    line-height: 100px;
     float:left;
 }
 
 header nav {
     float:right;
-    line-height: 200px;
+    line-height: 100px;
 }
 
 /* los atributos de los botones del header*/
@@ -87,4 +87,62 @@ header nav a:hover {
     .header2 .logo, .header2 nav {
         line-height: 50px;
     }
+}
+
+.banner {
+    position: relative; /*para que se acomode*/
+    width: 100%; /*ancho total*/
+    height: 550px;
+    background-color: blanchedalmond;
+    background-size: cover;/*que el tamaño de la imagen se comporte como una portada*/
+    background-position: center; /*la verdad que al pedo*/
+    transition: all .1s ease-in-out;
+    background-image: url('imagen1.png');
+    animation: banner 28s infinite linear; /*Agregamos la animacion escrita en @ abajo*/
+}
+
+.banner-contenido {
+
+    width: 100%; /*ancho total*/
+    height: 100%; /*ancho total*/
+    color: #fff;
+    background-color: rgba(0, 22, 40, .6); /* efecto de filtro azul en el banner*/
+    display: flex; /*lo haces flex para usar los atributos de abajo*/
+    flex-direction: column;
+    justify-content: center; /*centra altura*/
+    align-items: center; /*centra ancho*/
+}
+
+.banner-contenido h1 {
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.banner-contenido a {
+    padding: 9px 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff; /* le da la forma de boton */
+    text-transform: uppercase; /* MAYUS */
+    transition: all .3s ease-in-out;
+}
+
+.banner-contenido a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+@keyframes banner {
+    0% { background-image: url('imagen1.jpg'); }
+    25% { background-image: url('imagen1.jpg'); }
+    26% { background-image: url('imagen2.jpg'); }
+    50% { background-image: url('imagen2.jpg'); }
+    51% { background-image: url('imagen3.jpg'); }
+    75% { background-image: url('imagen3.jpg'); }
+    76% { background-image: url('imagen4.jpg'); }
+    100% { background-image: url('imagen4.jpg'); }
+
+
+
 }
