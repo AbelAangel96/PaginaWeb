@@ -6,7 +6,7 @@ header {
     width:100%;
     overflow:hidden; 
     background: #252932;
-    margin-bottom: 20px;
+
 }
 
 .wrapper {
@@ -65,7 +65,7 @@ header nav a:hover {
 
 /* el contenido queda debajo del header. esto lo corrige*/
 .contenido {
-    padding-top: 100px; /*el contenido hace un espaciado del mismo tamaño que el header*/
+    padding-top: 0px; /*el contenido hace un espaciado del mismo tamaño que el header*/
 }
 
 .contenido p {
@@ -92,7 +92,7 @@ header nav a:hover {
 .banner {
     position: relative; /*para que se acomode*/
     width: 100%; /*ancho total*/
-    height: 550px;
+    height: 557px;
     background-color: blanchedalmond;
     background-size: cover;/*que el tamaño de la imagen se comporte como una portada*/
     background-position: center; /*la verdad que al pedo*/
