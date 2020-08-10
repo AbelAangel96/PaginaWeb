@@ -51,16 +51,16 @@ header nav a:hover {
 
 .header2 {
     position: fixed; /* queda pegado en pantalla*/
-    height: 100px;
+    height: 50px;
 }
 
 .header2 .logo {
-    line-height: 100px;
+    line-height: 50px;
     font-size: 30px;
 }
 
 .header2 nav {
-    line-height: 100px;
+    line-height: 50px;
 }
 
 /* el contenido queda debajo del header. esto lo corrige*/
@@ -143,6 +143,70 @@ header nav a:hover {
     76% { background-image: url('imagen4.jpg'); }
     100% { background-image: url('imagen4.jpg'); }
 
+}
+
+/*seccion de nosotros*/
+   
+.equipo {
+    width: 100%;
+    max-width: 100%;
+    height: 600px;
+    padding: 0;
+    position: relative;
+    display: flex;
+}
+
+    .retrato {
+
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+        img {
+            width: 80%;
+            height: 80%;
+            padding:  10% 10% 10% 10%;
+            display: block;
+            border-radius: 15px;
+            float: left;
 
 
+        }
+    
+    .info {
+        width: 60%;
+        height: 100%;
+        float: right;
+    }
+
+        .info a {
+            width: 80%;
+            height: 50%;
+            padding-right: 10%;
+            padding-left:10%;
+            padding-bottom: 10%;
+            float: left;
+        }
+
+        .info H1 {
+            width: 80%;
+            height: 10%;
+            padding-right: 10%;
+            padding-left:10%;
+            padding-top: 20%;
+            float: left;
+        }
+
+        .info H2 {
+            width: 80%;
+            height: 10%;
+            padding-right: 10%;
+            padding-left:10%;
+            float:left;
+        }
+
+.padding {    
+    padding-top: 50px; /*el contenido hace un espaciado del mismo tamaño que el header*/ 
+    position: absolute;
 }

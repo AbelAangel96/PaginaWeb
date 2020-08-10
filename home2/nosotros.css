@@ -1,0 +1,25 @@
+    
+    
+.equipo {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    padding: 0;
+    position: relative;
+    display: flex;
+    background-color: lightcoral;
+}
+
+.retrato {
+
+    width: 200px;
+    max-width: auto;
+    height: 400px;
+    background-color: lightgoldenrodyellow;
+}
+
+img {
+    width: 100px;
+    height: 200px;
+
+}
